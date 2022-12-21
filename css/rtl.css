@@ -1,0 +1,22 @@
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+.owl-carousel {
+    direction: ltr;
+}
+.apps-testimonial {
+    padding: 50px 20px;
+}
+@media screen and (max-width: 767px) {
+    .apps-testimonial {
+        padding: 30px 30px;
+    }
+}
+.flip-box-back {
+    background: linear-gradient( -180deg, rgb(0,235,172) 0%, rgb(0,209,244) 100%) !important;
+}
+.feature-img-box:before {
+    display:none;
+}
